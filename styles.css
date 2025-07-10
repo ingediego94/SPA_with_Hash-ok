@@ -1,0 +1,21 @@
+.header{
+    background-color: cyan;
+}
+
+.title_1{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding-block: 1rem;
+}
+
+
+
+#contenido{
+    background-color: palegoldenrod;
+    padding: 1rem;
+}
