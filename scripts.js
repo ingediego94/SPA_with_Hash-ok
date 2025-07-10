@@ -11,7 +11,7 @@ function getViewFromHash() {
 
 // Dynamically loads the HTML view.
 function loadView(nameOfView) {
-  fetch(`vistas/${nameOfView}.html`)
+  fetch(`views/${nameOfView}.html`)     // It's mandatory that 'views' it'll be the same name of the folder that contains the views in html, except index.html
     .then(res => {
       if (!res.ok) throw new Error(`No se pudo cargar la vista: ${nameOfView}`);
       return res.text();
